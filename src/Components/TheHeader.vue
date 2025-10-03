@@ -19,5 +19,5 @@ import ButtonCall from './ButtonCall.vue';
 
 const logoName = ref("CresvaleConsultancy");
 const btnName = ref("Free 45-minute strategy call");
-const btnStyle = ref("min-w-0 w-full font-roboto p-2 bg-dark-blue text-white rounded-md md:cursor-pointer md:shadow-md md:hover:bg-light-blue md:active:bg-dark-blue md:duration-300 md:ease-in-out animate-fade-in-end animate-once animate-duration-400 animate-delay-1 animate-normal")
+const btnStyle = ref("min-w-0 w-full font-roboto p-2 bg-dark-blue text-white rounded-md md:cursor-pointer md:shadow-md md:hover:bg-light-blue md:active:bg-dark-blue md:duration-300 md:ease-in-out animate-fade-in-end animate-once animate-duration-400 animate-delay-1 animate-normal");
 </script>
