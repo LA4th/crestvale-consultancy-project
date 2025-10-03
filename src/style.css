@@ -1,5 +1,7 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@import "@iscodex/tailwindcss-animate";
 
 @theme {
   /* COLOR */
@@ -13,3 +15,8 @@
   --font-aldrich: "Aldrich", sans-serif;
   --font-robot: "Roboto", sans-serif;
 }
+
+/* DEBUG STYLES */
+/* * {
+  border: 1px solid red;
+} */
