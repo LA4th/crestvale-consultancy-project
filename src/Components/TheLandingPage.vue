@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen max-w-full flex flex-col items-center gap-y-5 mt-5 md:flex-row md:gap-x-5 md:mt-0">
+  <div class="min-h-screen max-w-full flex flex-col items-center gap-y-5 mt-5 md:flex-row md:gap-x-5">
     <!-- DIPLAY TEXT -->
     <div class="flex flex-col gap-y-5 md:gap-y-15">
       <!-- TEXT CONTAINER -->
