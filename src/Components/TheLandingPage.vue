@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen max-w-full flex flex-col items-center gap-y-5 mt-5 md:flex-row md:gap-x-5">
+  <div class="min-h-screen max-w-full flex flex-col items-center gap-y-5 md:flex-row md:gap-x-5">
     <!-- DIPLAY TEXT -->
-    <div class="flex flex-col gap-y-5 md:gap-y-15">
+    <div class="flex flex-col gap-y-5 md:gap-y-15 md:w-2/4">
       <!-- TEXT CONTAINER -->
       <div class="flex flex-col gap-y-3 animate-fade-in-start animate-once animate-duration-400 animate-delay-1 animate-normal">
         <span class="font-roboto font-bold text-slight-black text-[40px] text-center tracking-tight text-base/12 md:text-left">We help you <span class="text-dark-blue">evolve</span> and <span class="text-dark-blue">escape the competition</span></span>
@@ -14,7 +14,7 @@
       </div>
     </div>
     <!-- DISPLAY IMAGE -->
-    <div class="md:w-[70%]">
+    <div class="md:w-2/4 md:shadow-xl md:overflow-hidden md:rounded-xl">
       <img :src="imageDisplay" alt="Person Display" class="max-w-full max-h-full object-contain m-auto rounded-xl">
     </div>
   </div>
