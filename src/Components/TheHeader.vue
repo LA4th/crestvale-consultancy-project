@@ -5,7 +5,7 @@
       <!-- LOGO -->
       <img :src="logo" alt="Crestvale Logo" class="w-16 h-16 object-contain">
       <!-- TEXT LOGO -->
-      <span class="font-aldrich text-[20px] font-bold text-dark-blue">{{ logoName }}</span>
+      <span class="font-aldrich text-[20px] font-bold text-dark-blue tracking-tighter">{{ logoName }}</span>
     </div>
     <!-- BUTTON CALL -->
     <ButtonCall :btnName="btnName" :btnStyle="btnStyle"></ButtonCall>

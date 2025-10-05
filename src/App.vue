@@ -6,6 +6,11 @@
     <TheBookPage></TheBookPage>
     <TheFounderPage></TheFounderPage>
   </div>
+  <div class="max-w-full bg-dark-blue">
+    <div class="max-w-full w-[900px] m-auto px-2 bg-dark-blue md:px-0">
+      <TheApplyPage></TheApplyPage>
+    </div>
+  </div>
 </template>
 <script setup>
 import TheHeader from './Components/TheHeader.vue';
@@ -13,4 +18,5 @@ import TheLandingPage from './Components/TheLandingPage.vue';
 import TheVisionGoalPage from './Components/TheVisionGoalPage.vue';
 import TheBookPage from './Components/TheBookPage.vue';
 import TheFounderPage from './Components/TheFounderPage.vue';
+import TheApplyPage from './Components/TheApplyPage.vue';
 </script>
