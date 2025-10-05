@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-full min-h-screen flex flex-col-reverse items-center md:flex-row">
     <!-- TEXT CONTAINER -->
-    <div class="flex flex-col items-center gap-y-5 opacity-0 md:w-2/4" ref="element" :class="{'animate-fade-in-start animate-once animate-duration-400 animate-delay-1 animate-normal':isVisible}">
+    <div class="flex flex-col items-center gap-y-5 opacity-0 md:w-2/4" ref="element" :class="{'opactiy-100 animate-fade-in-start animate-once animate-duration-400 animate-delay-1 animate-normal':isVisible}">
       <!-- TEXT SECTION -->
       <div class="flex flex-col items-center gap-y-3">
         <p class="font-roboto text-slight-black text-[30px] font-bold text-center tracking-tight md:text-left">How <span class="text-dark-blue">CrestvaleConsultancy</span> can help you reach your potential and become a market leader</p>
