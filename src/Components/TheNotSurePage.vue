@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-full min-h-screen">
     <div class="flex flex-col gap-y-5 items-center md:flex-row md:gap-x-5 md:py-10">
-      <div class="flex flex-col items-center gap-y-5 md:w-2/4">
+      <div class="flex flex-col items-center gap-y-5 md:w-2/4 opacity-0" ref="elementText" :class="{'opacity-100 animate-fade-in-start animate-once animate-duration-400 animate-delay-1 animate-normal':isVisibleText}">
         <!-- PARAGRAPH -->
         <div class="flex flex-col items-center gap-y-3">
           <span class="font-roboto text-[30px] font-bold text-slight-black text-center tracking-tight md:text-left">
@@ -17,10 +17,10 @@
         </div>
       </div>
       <!-- IMAGE -->
-      <div class="bg-gray-white p-5 flex flex-col items-center justify-center rounded-xl gap-y-5 md:w-2/4 md:shadow-md">
+      <div class="p-5 flex flex-col items-center justify-center rounded-xl gap-y-10 md:w-2/4 shadow-md">
         <img :src="listInfo[0].personImage" alt="Person Image" class="w-30 h-30 rounded-full object-cover object-[center_10%]">
         <!-- LIST -->
-        <ul class="flex flex-col gap-y-10">
+        <ul class="flex flex-col gap-y-10 opacity-0" ref="elementText1" :class="{'opacity-100 animate-fade-in-end animate-once animate-duration-400 animate-delay-1 animate-normal':isVisibleText1}">
           <li v-for="(info, index) in listInfo[0].listInfo" :key="index" class="flex flex-row items-start gap-x-3">
             <span class="flex justify-between items-center">
               <Icon icon="mdi:check" class="text-white w-10 h-10 rounded-full bg-dark-blue p-1" />
@@ -35,6 +35,7 @@
 <script setup>
 import { ref } from 'vue';
 import { Icon } from "@iconify/vue";
+import { useScrollTrigger } from '../Composables/useScrollTrigger';
 
 import ButtonCall from './ButtonCall.vue';
 import personImage from '../Assets/People_Landing.jpeg';
@@ -47,4 +48,6 @@ const listInfo = ref([
     listInfo: ["45 Minute strategy call.", "Become a market leader.", "Learn how to build relatioship with your client.", "Transcend yourself and business to a new dimension."]
   }
 ])
+const { isVisible: isVisibleText, element: elementText } = useScrollTrigger();
+const { isVisible: isVisibleText1, element: elementText1} = useScrollTrigger();
 </script>

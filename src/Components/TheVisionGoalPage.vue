@@ -3,7 +3,7 @@
     <!-- VISION AND GOAL -->
     <div class="max-w-full flex flex-col gap-y-5 md:flex-row md:gap-x-5 transition-opacity duration-700 opacity-0" ref="element" :class="{'opacity-100 animate-fade-in-end animate-once animate-duration-400 animate-delay-1 animate-normal': isVisible}">
       <!-- CARD 1 -->
-      <div class="bg-gray-white max-w-full w-[358px] h-[251px] px-3 py-4 text-wrap rounded-xl flex flex-col gap-y-2 md:h-full">
+      <div class="max-w-full w-[358px] h-[251px] px-3 py-4 text-wrap rounded-xl flex flex-col gap-y-2 shadow-md md:h-full">
         <!-- HEADER CARD 1 -->
         <div class="flex flex-row items-center gap-x-2">
           <div class="w-14 h-14 flex items-center justify-center rounded-full bg-dark-blue">
@@ -14,7 +14,7 @@
         <p class="text-gray indent-8 text-[18px] line-clamp-5">{{ paragraph }}</p> 
       </div>
       <!-- CARD 2 -->
-      <div class="bg-gray-white max-w-full w-[358px] h-[251px] px-3 py-4 text-wrap rounded-xl flex flex-col gap-y-2 md:h-full">
+      <div class="max-w-full w-[358px] h-[251px] px-3 py-4 text-wrap rounded-xl flex flex-col gap-y-2 shadow-md md:h-full">
         <!-- HEADER CARD 2 -->
         <div class="flex flex-row items-center gap-x-2">
           <div class="w-14 h-14 flex items-center justify-center rounded-full bg-dark-blue">
@@ -25,7 +25,7 @@
         <p class="text-gray indent-8 text-[18px] line-clamp-5">{{ paragraph }}</p> 
       </div>
       <!-- CARD 3 -->
-      <div class="bg-gray-white max-w-full w-[358px] h-[251px] px-3 py-4 text-wrap rounded-xl flex flex-col gap-y-2 md:h-full">
+      <div class="max-w-full w-[358px] h-[251px] px-3 py-4 text-wrap rounded-xl flex flex-col gap-y-2 shadow-md md:h-full">
         <!-- HEADER CARD 3 -->
         <div class="flex flex-row items-center gap-x-2">
           <div class="w-14 h-14 flex items-center justify-center rounded-full bg-dark-blue">

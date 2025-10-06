@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-full min-h-screen flex justify-center items-center">
-    <n-carousel autoplay class="w-full bg-gray-white py-6 flex justify-center items-center rounded-xl md:shadow-md">
+    <n-carousel autoplay class="w-full py-6 flex justify-center items-center rounded-xl shadow-md">
       <n-carousel-item v-for="(person, index) in carouselPersonInfo" :key="index" class="w-full px-5 flex flex-col items-center justify-center gap-y-5">
         <p class="font-roboto font-bold tracking-tight text-slight-black text-[20px] text-center">{{ person.statement }}</p>
         <div class="flex flex-col items-center gap-y-3">
