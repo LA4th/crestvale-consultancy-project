@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-full min-h-screen flex flex-col items-center justify-center">
+  <div class="max-w-full">
     <!-- VISION AND GOAL -->
     <div class="max-w-full flex flex-col gap-y-5 md:flex-row md:gap-x-5 transition-opacity duration-700 opacity-0" ref="element" :class="{'opacity-100 animate-fade-in-end animate-once animate-duration-400 animate-delay-1 animate-normal': isVisible}">
       <!-- CARD 1 -->

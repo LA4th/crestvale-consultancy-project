@@ -14,6 +14,8 @@
   <div class="max-w-full w-[900px] m-auto px-2 md:px-0">
     <TheCarousel></TheCarousel>
     <TheNotSurePage></TheNotSurePage>
+    <TheCompetitionPage></TheCompetitionPage>
+    <TheFooter></TheFooter>
   </div>
 </template>
 <script setup>
@@ -25,4 +27,5 @@ import TheFounderPage from './Components/TheFounderPage.vue';
 import TheApplyPage from './Components/TheApplyPage.vue';
 import TheCarousel from './Components/TheCarousel.vue';
 import TheNotSurePage from './Components/TheNotSurePage.vue';
+import TheCompetitionPage from './Components/TheCompetitionPage.vue';
 </script>

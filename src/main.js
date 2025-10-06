@@ -9,6 +9,8 @@ import TheFounderPage from './Components/TheFounderPage.vue';
 import TheApplyPage from './Components/TheApplyPage.vue';
 import TheCarousel from './Components/TheCarousel.vue';
 import TheNotSurePage from './Components/TheNotSurePage.vue';
+import TheCompetitionPage from './Components/TheCompetitionPage.vue';
+import TheFooter from './Components/TheFooter.vue';
 import ButtonCall from './Components/ButtonCall.vue';
 
 const app = createApp(App);
@@ -21,6 +23,8 @@ app.component('TheFounderPage', TheFounderPage);
 app.component('TheApplyPage', TheApplyPage);
 app.component('TheCarousel', TheCarousel);
 app.component('TheNotSurePage', TheNotSurePage);
+app.component('TheCompetitionPage', TheCompetitionPage);
+app.component('TheFooter', TheFooter);
 app.component('ButtonCall', ButtonCall);
 
 app.mount('#app')
