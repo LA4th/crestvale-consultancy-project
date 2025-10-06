@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-full flex flex-col gap-y-5 items-center justify-center">
+  <div class="max-w-full flex flex-col gap-y-5 items-center justify-center py-15">
     <div class="flex flex-col gap-y-3 opacity-0" ref="elementText" :class="{'opacity-100 animate-fade-in-start animate-once animate-duration-400 animate-delay-1 animate-normal':isVisibleText}">
       <span class="font-roboto text-center text-white text-[30px] font-bold tracking-tight">Let’s work together on your scalability</span>
       <span class="font-roboto text-center text-white text-[20px] tracking-tight">Start to day and apply for a free 45-min strategy call</span>
