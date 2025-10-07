@@ -1,6 +1,6 @@
 <template>
   <div class="w-full md:w-auto md:ml-auto">
-    <button type="button" :class="btnStyle">{{ btnName }}</button>
+    <button @click="$router.push('/form')" type="button" :class="btnStyle">{{ btnName }}</button>
   </div>
 </template>
 <script setup>

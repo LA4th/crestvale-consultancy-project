@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
+import Router from './Router'
+
 import TheHeader from './Components/TheHeader.vue';
 import TheLandingPage from './Components/TheLandingPage.vue';
 import TheVisionGoalPage from './Components/TheVisionGoalPage.vue';
@@ -27,4 +29,5 @@ app.component('TheCompetitionPage', TheCompetitionPage);
 app.component('TheFooter', TheFooter);
 app.component('ButtonCall', ButtonCall);
 
+app.use(Router)
 app.mount('#app')
