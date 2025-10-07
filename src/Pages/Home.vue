@@ -28,4 +28,5 @@
   import TheCarousel from '../Components/TheCarousel.vue'
   import TheNotSurePage from '../Components/TheNotSurePage.vue'
   import TheCompetitionPage from '../Components/TheCompetitionPage.vue'
+  import TheFooter from '../Components/TheFooter.vue'
 </script>

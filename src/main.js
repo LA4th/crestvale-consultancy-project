@@ -15,6 +15,8 @@ import TheCompetitionPage from './Components/TheCompetitionPage.vue';
 import TheFooter from './Components/TheFooter.vue';
 import ButtonCall from './Components/ButtonCall.vue';
 
+import TheForm from './Components/TheForm.vue';
+
 const app = createApp(App);
 // REGISTER GLOBAL
 app.component('TheHeader', TheHeader);
@@ -28,6 +30,8 @@ app.component('TheNotSurePage', TheNotSurePage);
 app.component('TheCompetitionPage', TheCompetitionPage);
 app.component('TheFooter', TheFooter);
 app.component('ButtonCall', ButtonCall);
+
+app.component('TheForm', TheForm);
 
 app.use(Router)
 app.mount('#app')
