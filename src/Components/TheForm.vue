@@ -82,7 +82,7 @@
       }
 
       // 2. I-set ang URL ng PHP script mo
-      const backendUrl = 'http://crestvale.wuaze.com/submit_user.php' // Palitan ito ng tamang path!
+      const backendUrl = 'https://crestvale.wuaze.com/submit_user.php' // Palitan ito ng tamang path!
 
       try {
           // Ipadala ang data gamit ang POST request. 
